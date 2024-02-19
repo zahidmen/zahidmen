@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/typeselector.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="texto">
+            <iframe id="vista" srcdoc="" onload="establecido()"></iframe>
+        </div>  
+        <div class="contenido">
+            <textarea onkeyup="actualizar()" id="editor_html" class="editor" placeholder="Escribe aqui">   
+                button{
+                    color: yellow;
+                    background:red;
+                    margin: 20px;
+                } /*
+                #botonsito {
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 15px 25px;
+                    font-size: 24px;
+                    border: none;
+                    border-radius: 15px;
+                }
+                #botonsito2{
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 15px 25px;
+                    font-size: 24px;
+                    border: none;
+                    border-radius: 15px;
+                }*/
+            </textarea>
+            <textarea onkeyup="actualizar()" id="editor_css" class="editor" placeholder="Escribe aqui"> 
+ <button id="botonsito">Presionameeeeeeeeeeee</button>
+ <button id="botonsito2">Presionameeeeeeeeeeee</button>
+            </textarea>
+           
+        </div>
+   
+    <script src="/functions/typeselector.js"></script>
+</body>
+</html>

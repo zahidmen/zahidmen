@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/resto.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="texto">
+            <iframe id="vista" srcdoc="" onload="establecido()"></iframe>
+        </div>  
+        <div class="contenido">
+            <textarea onkeyup="actualizar()" id="editor_html" class="editor" placeholder="Escribe aqui">    
+                *{
+                    background-color: yellow;
+                    font-size: 30px;
+                    color: red;
+                }/*
+                lu > li:last-child {
+                    background: red;
+                    color:white;
+                    font-size:50px;
+                }/*
+                p:hover {
+                    background: orange;
+
+                }
+        
+            </textarea>
+            <textarea onkeyup="actualizar()" id="editor_css" class="editor" placeholder="Escribe aqui"> 
+<div>
+   
+ <h1>TITULOOOOOOO 1</h1>
+ <p>Voy a escribir un ejemplo pero no se me ocurrio nada</p>
+
+ <h3>TITULOOOOOO0 3</h3>
+ <lu>
+     <li>Victor</li>
+     <li>Cruz</li>
+     <li>Mascorro</li> 
+     <li>Jeysa</li>
+     <li>Casandra</li>
+ </lu>
+</div>
+            </textarea>
+           
+        </div>
+   
+    <script src="/functions/typeselector.js"></script>
+    <script src="/functions/pseudoeditor.js"></script>
+</body>
+</html>

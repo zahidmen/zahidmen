@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/resto.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="texto">
+            <iframe id="vista" srcdoc="" onload="establecido()"></iframe>
+        </div>  
+        <div class="contenido">
+            <textarea onkeyup="actualizar()" id="editor_html" class="editor" placeholder="Escribe aqui">  
+           *{
+            margin:0px;
+            padding:20px;
+            color: white;
+            background:purple;
+
+           }  /*     
+           [class="ejemplo1"]{
+            background:black;
+            color: white;
+           }/*
+           [class="ejemplo2"]{
+            background:red;
+            color: yellow;
+           }
+            </textarea>
+            <textarea onkeyup="actualizar()" id="editor_css" class="editor" placeholder="Escribe aqui"> 
+ <P class="ejemplo1">Vamos a ver que pasa</P>
+ <P class="ejemplo2">Ya no se que escribir en los ejemplos</P>
+ <button class="ejemplo2">Presionameeeeeeeeeeee</button>
+ <button class="ejemplo1">Presionameeeeeeeeeeee</button>
+                            </textarea>
+           
+        </div>
+   
+    <script src="/functions/typeselector.js"></script>
+</body>
+</html>

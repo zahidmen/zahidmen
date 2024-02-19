@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/typeselector.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="texto">
+            <iframe id="vista" srcdoc="" onload="establecido()"></iframe>
+        </div>  
+        <div class="contenido">
+            <textarea onkeyup="actualizar()" id="editor_html" class="editor" placeholder="Escribe aqui">    
+*{ 
+    background: red;
+  }/*
+  h1{
+    background-color: yellow;
+  }/*
+  p{
+    font-size: 100px;
+  }/*
+  strong{
+    color: blue;
+  }
+            </textarea>
+            <textarea onkeyup="actualizar()" id="editor_css" class="editor" placeholder="Escribe aqui"> 
+ <h1>SELECTOR DE ELEMENTOS</h1>
+ <P>ESTO ES LO QUE HACE SI SELECCIONAS UN PARRAFO</P>
+ <P>EST6E PARRAFO ES DIFERENTE <strong>MIRA LA FUNCION STRONG LO QUE PUEDE HACER</strong>
+</P>
+            </textarea>
+           
+        </div>
+   
+    <script src="/functions/typeselector.js"></script>
+</body>
+</html>
